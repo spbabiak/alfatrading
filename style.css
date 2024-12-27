@@ -189,14 +189,19 @@ section:last-child {
   margin-top: 10rem;
 }
 
+.plan-features {
+  width: 100%;
+  padding-inline: 7rem;
+}
+
 .plan-item {
-  padding-inline: 5rem;
   padding-top: 3rem;
-  padding-bottom: 4rem;
   border: 1px solid #11B6FF;
   box-shadow: 0px 2px 87px 8px rgba(63, 140, 255, 0.25);
   border-radius: 4px;
   position: relative;
+  width: 100%;
+  max-width: 364px;
 }
 
 .label-popular {
