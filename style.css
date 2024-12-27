@@ -232,7 +232,10 @@ section:last-child {
 }
 
 .feature-item {
-  position: relative;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #11B6FF;
 }
 
 .feature-item::before {
