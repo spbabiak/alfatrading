@@ -109,7 +109,52 @@ section:last-child {
 	margin-bottom: 5rem;
 }
 
-/* Utility classes */
+/* Rules table */
+
+table {
+  font-size: 12px;
+  border-collapse: collapse;
+  /* border-spacing: 1; */
+  color: #000;
+  width: 100%;
+  border: 1px solid #000;
+}
+
+th {
+  padding: 8px;
+  color:#fff;
+  text-align: center;
+}
+
+td {
+  text-align: center;
+  padding: 8px;
+}
+
+tr {
+  background-color: #fff;
+  border-width: 2;
+}
+
+tr td:first-child,
+tr td:last-child {
+  width: 1%;
+  white-space: nowrap;
+  text-align: left !important;
+}
+
+tr td:first-child {
+  font-weight: bold;
+}
+
+tbody, td, tfoot, th, thead, tr {
+  border-width: 1px !important;
+}
+
+.question { font-weight: bold; }
+.answer { padding-top: 6px; padding-bottom: 16px; }
+
+/* End Rules table */
 
 /* Navbar */
 
