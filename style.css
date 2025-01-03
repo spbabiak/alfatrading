@@ -307,3 +307,33 @@ tbody, td, tfoot, th, thead, tr {
 .contacts-wrapper {
   border-top: 1px solid #11B6FF;  
 }
+
+.toTop {
+  left: 85%;
+}
+
+.toTop:hover {
+  opacity: .75;
+}
+
+.toTop::before {
+  content: 'back to top';
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  color: #1170ff;
+  opacity: .75;
+}
+
+/* Media Query */
+
+@media (max-width: 768px) {
+ .toTop {
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+  }
+  
+}
